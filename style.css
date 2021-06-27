@@ -1,0 +1,19 @@
+body{
+    font-family: tahoma;
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.country{
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.country-name{
+    color: salmon;
+    font-size: 45px;
+}
